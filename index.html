@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header class="card">
+        <section class="search">
+            <input type="text" placeholder="Enter city name..." spellcheck="false">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </section>
+        <section class="icons">
+            <div class="image">
+                <i id="weatherIcon" class="fa-solid fa-sun"></i>
+            </div>
+            <div class="info">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">Quito</h2>
+            </div>
+        </section>
+        <section class="statics">
+            <div class="humidity">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <h2 class="humid">53%</h2>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-water"></i>
+                <div>
+                    <h2 class="speed">5.66 km/h</h2>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+<script src="https://kit.fontawesome.com/d5142eb2b9.js" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+</html>
