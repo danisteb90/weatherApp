@@ -7,6 +7,7 @@ const searchBox = document.querySelector('.search input');
 const searchBtn = document.querySelector('.search button');
 const weatherIcon = document.getElementById('weatherIcon');
 
+
 async function getWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
     let data = await response.json();
@@ -37,8 +38,9 @@ async function getWeather(city) {
         weatherIcon.style.color = 'snow';
     }
 
-    document.querySelector('.icons').style.display = 'block';
-    document.querySelector('.statics').style.display = 'block';
+    document.querySelector('.icons').style.display = 'flex';
+    document.querySelector('.statics').style.display = 'flex';
+    document.querySelector('.appInfo').style.display = 'none';
 }
 
 searchBtn.addEventListener('click', () => {

@@ -66,6 +66,20 @@ body {
     color: #222;
 }
 
+.appInfo {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.appInfo i {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
 .icons {
     margin: 40px 0;
     display: flex;
@@ -97,6 +111,7 @@ body {
 
 .statics {
     display: flex;
+    padding: 0;
     gap: 40px;
 }
 
