@@ -119,6 +119,14 @@ body {
     font-weight: 400;
 }
 
+.icons {
+    display: none;
+}
+
+.statics {
+    display: none;
+}
+
 @media (max-width:450px) {
     .card {
         width: 300px;

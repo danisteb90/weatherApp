@@ -19,7 +19,7 @@ async function getWeather(city) {
     document.querySelector('.speed').innerHTML = data.wind.speed + " km/h";
     if (data.weather[0].main == 'Rain'){
         weatherIcon.className = 'fa-solid fa-cloud-rain';
-        weatherIcon.style.color = 'rgb(0, 0, 76)';
+        weatherIcon.style.color = 'rgb(0, 0, 186)';
     } else if (data.weather[0].main == 'Clear'){
         weatherIcon.className = 'fa-solid fa-sun';
         weatherIcon.style.color = 'rgb(255, 217, 0)';
@@ -36,6 +36,9 @@ async function getWeather(city) {
         weatherIcon.className = 'fa-solid fa-snowflake';
         weatherIcon.style.color = 'snow';
     }
+
+    document.querySelector('.icons').style.display = 'block';
+    document.querySelector('.statics').style.display = 'block';
 }
 
 searchBtn.addEventListener('click', () => {
