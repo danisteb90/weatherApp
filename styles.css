@@ -67,8 +67,8 @@ body {
 }
 
 .appInfo {
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 22px;
+    margin-top: 30px;
     text-align: center;
     color: white;
     font-weight: 500;
@@ -76,7 +76,7 @@ body {
 }
 
 .appInfo i {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
